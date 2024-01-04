@@ -1,0 +1,3 @@
+[[language]]
+name = "rust"
+diagnostic-severity = "Hint"
