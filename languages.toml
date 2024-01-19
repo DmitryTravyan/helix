@@ -1,8 +1,22 @@
 [[language]]
 name = "rust"
+# formatter = { command = "rustfmt" , args = ["--config=imports_granularity=Crate,group_imports=StdExternalCrate"] }
+
+[language-server.rust-analyzer.config]
+cargo.features = "all"
+
+# [language-server.rust-analyzer.rustfmt]
+# extraArgs = ["+nightly"]
 
 [[language]]
 name = "lua"
 auto-format = true
 formatter = { command = "stylua" , args = ["-"] }
 
+[[language]]
+name = "yaml"
+auto-format = true
+
+[[language]]
+name = "protobuf"
+language-servers = [ "bufls" ]

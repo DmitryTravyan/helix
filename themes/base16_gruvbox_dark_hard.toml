@@ -101,10 +101,10 @@
 
 "diagnostic.warning" = { underline = { color = "orange1", style = "curl" } }
 "diagnostic.error" = { underline = { color = "red1", style = "curl" } }
-"diagnostic.info" = { underline = { color = "aqua1", style = "curl" } }
+"diagnostic.info" = { underline = { color = "cyan1", style = "curl" } }
 "diagnostic.hint" = { underline = { color = "blue1", style = "curl" } }
 
-"markup.heading" = "aqua1"
+"markup.heading" = "cyan1"
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
