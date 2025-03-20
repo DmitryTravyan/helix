@@ -8,6 +8,8 @@ true-color = true
 color-modes = true
 cursorline = true
 popup-border = "all"
+idle-timeout = 2000
+text-width = 100
 
 [editor.statusline]
 left = ["mode", "spinner"]
@@ -20,6 +22,4 @@ mode.select = "SELECT"
 
 [editor.lsp]
 display-inlay-hints = true
-
-[keys.normal]
-C-n = "file_picker_in_current_directory"
+display-messages = true

@@ -1,0 +1,158 @@
+# Attribute
+"attribute" = { fg = "yellow_bright", modifiers = ["italic"] }
+
+# Comment
+"comment" = { fg = "gray_bright", modifiers = ["italic"]  }
+"comment.line" = "gray_bright"
+"comment.unused" = { fg = "undefined" }
+"comment.block" = "cyan_dark"
+"comment.block.documentation" = "cyan_dark"
+
+# Keyword
+"keyword" ="purple_dark"
+"keyword.control" = "purple_bright"
+"keyword.control.repeat" = "purple_bright"
+"keyword.control.conditional" = "purple_bright"
+"keyword.control.return" = "purple_bright"
+"keyword.control.import" = "purple_dark"
+"keyword.storage" = "purple_bright"
+"keyword.storage.type" = "yellow_dark"
+"keyword.storage.modifier" = "yellow_dark"
+"keyword.storage.modifier.mut" = "purple_bright"
+"keyword.storage.modifier.ref" = "orange_bright"
+"keyword.function" = "purple_bright"
+"keyword.operator" = "undefined"
+"keyword.special" = "red_dark" # like unsafe
+
+# Namespace
+"namespace" = "blue_dark"
+
+# All operators
+"operator" = "orange_bright"
+
+# Macros and others
+"special" = "yellow_bright"
+
+# Variables
+"variable" = "fg1"
+"variable.builtin" = "orange_bright"
+"variable.parameter" = "fg2"
+"variable.other.member" = "fg2"
+
+# Constants
+"constant" = "fg0"
+"constant.builtin" = "orange_bright"
+"constant.builtin.boolean" = "orange_bright"
+"constant.numeric.float" = "purple_bright"
+"constant.numeric.integer" = "purple_bright"
+
+# Strings
+"string" = "green_bright"
+
+# Labels
+"label" = "cyan_bright"
+
+# Functions
+"function" = "blue_bright"
+"function.macro" = "red_dark"
+"function.builtin" = "yellow_bright"
+"function.method" = "blue_dark"
+
+# Punctuation
+"punctuation" = "fg1"
+"punctuation.delimiter" = "orange_dark"
+"punctuation.bracket" = "fg1"
+
+# Constructors
+"constructor" = "orange_dark"
+
+# Types
+"type" = "beige"
+"type.parameter" = "fg1"
+"type.builtin" = "yellow_bright"
+
+# Types ENUM
+"type.enum" = "blue_bright"
+"type.enum.variant" = { fg = "beige", modifiers = ["italic"] } # TODO
+"type.enum.variant.builtin" = "orange_bright"
+
+"diff.plus" = "green_dark"
+"diff.delta" = "orange_bright"
+"diff.minus" = "red_bright"
+
+"warning" = "orange_dark"
+"error" = "red_dark"
+"info" = "cyan_dark"
+"hint" = "blue_dark"
+
+"ui.background" = { bg = "bg0" }
+"ui.linenr" = { fg = "bg4" }
+"ui.linenr.selected" = { fg = "yellow_bright" }
+"ui.cursorline" = { bg = "bg1" }
+"ui.statusline" = { fg = "fg1", bg = "bg2" }
+"ui.statusline.normal" = { fg = "fg1", bg = "bg2" }
+"ui.statusline.insert" = { fg = "fg1", bg = "blue_dark" }
+"ui.statusline.select" = { fg = "fg1", bg = "orange_dark" }
+"ui.statusline.inactive" = { fg = "fg4", bg = "bg1" }
+"ui.popup" = { bg = "bg1" }
+"ui.window" = { bg = "bg1" }
+"ui.help" = { bg = "bg1", fg = "fg1" }
+"ui.text" = { fg = "fg1" }
+"ui.text.focus" = { fg = "fg1" }
+"ui.selection" = { bg = "bg2" }
+"ui.selection.primary" = { bg = "bg3" }
+"ui.cursor.primary" = { bg = "fg4", fg = "bg1" }
+"ui.cursor.match" = { bg = "bg3" }
+"ui.menu" = { fg = "fg1", bg = "bg2" }
+"ui.menu.selected" = { fg = "bg2", bg = "blue_bright", modifiers = ["bold"] }
+"ui.virtual.whitespace" = "bg2"
+"ui.virtual.ruler" = { bg = "bg1" }
+"ui.virtual.inlay-hint" = { fg = "gray_bright" }
+"ui.virtual.wrap" = { fg = "bg2" }
+
+"diagnostic.warning" = { underline = { color = "orange_bright", style = "curl" } }
+"diagnostic.error" = { underline = { color = "red_bright", style = "curl" } }
+"diagnostic.info" = { underline = { color = "cyan_bright", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "blue_bright", style = "curl" } }
+
+"markup.heading" = "cyan_bright"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "green_bright", modifiers = ["underlined"] }
+"markup.link.text" = "red_bright"
+"markup.raw" = "red_bright"
+
+[palette]
+bg0 = "#1d2021" # main background
+bg1 = "#3c3836"
+bg2 = "#504945"
+bg3 = "#665c54"
+bg4 = "#7c6f64"
+
+fg0 = "#fbf1c7"
+fg1 = "#ebdbb2" # main foreground
+fg2 = "#d5c4a1"
+fg3 = "#bdae93"
+fg4 = "#a89984" # gray_dark
+
+gray_dark = "#a89984"
+gray_bright = "#928374"
+
+beige = "#d6ab7e"
+red_dark = "#cc241d"
+red_bright = "#fb4934"
+green_dark = "#98971a"
+green_bright = "#b8bb26"
+yellow_dark = "#d79921"
+yellow_bright = "#fabd2f"
+blue_dark = "#458588"
+blue_bright = "#83a598"
+purple_dark = "#b16286"
+purple_bright = "#d3869b"
+cyan_dark = "#689d6a"
+cyan_bright = "#8ec07c"
+orange_dark = "#d65d0e"
+orange_bright = "#fe8019"
+
+undefined = "#03fc2c"
